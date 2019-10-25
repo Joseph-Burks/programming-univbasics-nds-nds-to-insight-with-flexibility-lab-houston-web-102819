@@ -85,8 +85,10 @@ def movies_with_directors_set(source)
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
   # to have a :director_name key added to it.
+  
   i = 0
   aoa_dir_mov = []
+  
   while i < source.length do
     dir_hash = source[i]
     dir_name = dir_hash[:name]
