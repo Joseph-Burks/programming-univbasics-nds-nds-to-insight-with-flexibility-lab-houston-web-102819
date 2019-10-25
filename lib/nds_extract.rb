@@ -79,7 +79,10 @@ def movies_with_directors_set(source)
   i = 0
   aoa_dir_mov = []
   while i < source.length do
-    dir_data
+    dir_hash = source[i]
+    dir_name = source[i][:name]
+    dir_mov = source[i][:movies]
+    
 end
 
 # ----------------    End of Your Code Region --------------------
