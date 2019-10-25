@@ -80,9 +80,12 @@ def movies_with_directors_set(source)
   aoa_dir_mov = []
   while i < source.length do
     dir_hash = source[i]
-    dir_name = source[i][:name]
-    dir_mov = source[i][:movies]
-    aoa_dir_mov << movie_with_director_name()
+    dir_name = dir_hash[i][:name]
+    dir_mov = dir_hash[i][:movies]
+    aoa_dir_mov << movie_with_director_name(dir_name, dir_mov)
+    i += 1
+  end
+  aoa_dir_mov
 end
 
 # ----------------    End of Your Code Region --------------------
