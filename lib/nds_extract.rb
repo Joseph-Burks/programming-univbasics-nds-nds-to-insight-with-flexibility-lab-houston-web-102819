@@ -82,7 +82,7 @@ def movies_with_directors_set(source)
     dir_hash = source[i]
     dir_name = source[i][:name]
     dir_mov = source[i][:movies]
-    
+    aoa_dir_mov << movie_with_director_name()
 end
 
 # ----------------    End of Your Code Region --------------------
