@@ -78,7 +78,8 @@ def movies_with_directors_set(source)
   # to have a :director_name key added to it.
   i = 0
   aoa_dir_mov = []
-  while 
+  while i < source.length do
+    dir_data
 end
 
 # ----------------    End of Your Code Region --------------------
